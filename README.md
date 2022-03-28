@@ -5,13 +5,17 @@ A tailwindcss-like datapack library, designed for programmer happiness (and fast
 
 ## How to apply an effect to yourself
 
+First:
+    /tag @s add effects
+
+Then:
     /tag @s add jump-boost   # Adds Jump Boost of 1
     
     /tag @s add speed-128     # Adds Speed of 128
 
 ## Applying effects to an entity
 
-    summon villager ~ ~ ~ {Tags:["resistance-3","glowing","speed-max"]}
+    /summon villager ~ ~ ~ {Tags:["effects", "resistance-3","..8+glowing","speed-max"]}
 ## What levels of amplification are currently supported?
 
 We include values of 1,2,3,4,5,6,7
@@ -39,6 +43,24 @@ These are supported without needing a number
 
     /tag @s add invisibility
 
+### Using distance prefixes
+
+Distance selectors enable or disable an effect based on whether a player is in range of the entity.
+
+An entity with the tag "..8+glowing" will have glowing if a player is within 8 blocks of it.
+
+An entity with the tag "16..+speed-3" will have speed 3 if a player is 16 blocks or further away from it.
+
+Supported distances: 1, 2, 3, 4, 8, 16, 32, 64
+
+### Using temp
+
+Sometimes it is useful to have an entity only exist for one tick, then be killed.
+
+For example, using a shulker to position an entity, you can summon it in with the temp tag, summon an entity at it's position, and it will automatically be killed off in the next game tick.
+
+    /summon shulker ~ ~ ~ {Tags:"temp"}
+
 ### See the full list
 
 To review the full list of options, look in the effects folder.
@@ -46,4 +68,4 @@ To review the full list of options, look in the effects folder.
 ## Coming Soon
 
 - Active tag
-- Setting Min/Max Player Range to apply an affect to
+- Key tag
