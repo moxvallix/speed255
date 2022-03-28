@@ -1,0 +1,1 @@
+execute if entity @e[tag=temp] run schedule function s255:helpers/instant/temp 1t replace

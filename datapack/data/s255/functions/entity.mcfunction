@@ -1,1 +1,0 @@
-execute as @s[tag=effects] run function s255:effects
