@@ -21,3 +21,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Split effects into two categories, main and extra, to save on performance.
 - Main effects also require the "effects" tag in order to function.
 - Extra effects also require the "effects-extra" tag in order to function.
+
+## [Unreleased]
+- Added mkdocs based documentation.

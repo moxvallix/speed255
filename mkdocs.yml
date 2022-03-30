@@ -1,0 +1,12 @@
+site_name: speed255
+theme:
+  name: material
+  features:
+    - navigation.indexes
+  palette: 
+    scheme: slate
+    primary: blue grey
+    accent: blue
+plugins:
+  - search
+  - awesome-pages
