@@ -1,0 +1,1 @@
+execute as @s run function s255:entity_data/main/regular

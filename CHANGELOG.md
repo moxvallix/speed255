@@ -22,5 +22,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Main effects also require the "effects" tag in order to function.
 - Extra effects also require the "effects-extra" tag in order to function.
 
-## [Unreleased]
+## [0.0.3] - 2022-03-31
+### Added
 - Added mkdocs based documentation.
+- Added entity data tags (currently without prefix support).
+- Added no-ai entity data tag.
+- Added no-gravity entity data tag.
+- Added invulnerable entity data tag.
+- Added silent entity data tag.
