@@ -30,3 +30,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added no-gravity entity data tag.
 - Added invulnerable entity data tag.
 - Added silent entity data tag.
+
+## [Unreleased]
+### Added
+- Added instant helper tag.

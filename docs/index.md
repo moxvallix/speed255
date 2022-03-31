@@ -6,5 +6,5 @@ Providing a wealth of opinionated and useful entity tags, **speed255** aims to s
 **speed255** is open source! View the source, and download the datapack from our [Github](https://github.com/moxvallix/speed255).
 
 ## Glossary
-The _@t_ selector is used without this documentation to represent the targeted entity.
+The _@t_ selector is used throughout this documentation to represent the targeted entity.
 

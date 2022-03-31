@@ -1,4 +1,4 @@
-Installing a datapack is easy. First, download the latest version of speed255 from the [releases](https://github.com/moxvallix/speed255/releases) page.
+Installing a datapack is easy. First, download the latest version of **speed255** from the [releases](https://github.com/moxvallix/speed255/releases) page.
 
 You should now have a zip file, named something like `s255-#.#.#.zip`, saved to your Downloads.
 
